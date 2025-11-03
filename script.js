@@ -1,4 +1,4 @@
-const API_BASE = "https://whatsapp-loja-api-henrique0440s-projects.vercel.app/api";
+const API_BASE = "https://whatsapp-loja-api-henrique0440s-projects.vercel.app";
 
 // Pede o código para o WhatsApp
 async function pedirCodigo() {
@@ -90,3 +90,4 @@ async function mostrarPainel() {
 if (localStorage.getItem('token')) {
     mostrarPainel();
 }
+
